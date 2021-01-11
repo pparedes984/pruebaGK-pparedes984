@@ -1,0 +1,116 @@
+body{
+    font: 13px/20px PTSansRegular,Arial,Helvetica,sans-serif;
+}
+nav{
+    background-color: #2596be;
+    color: white;
+}
+.card-body{
+    width: auto;
+}
+footer{
+    background-color: #2596be;
+    width:100%;
+    color: white;
+    bottom:0;
+    left:0;
+    right: 0;
+    padding-top: 15px;
+}
+
+.redes li{
+    vertical-align: top;
+    display: inline;
+    padding: 0.5em;
+}
+
+.redes a{
+    color: white;
+}
+
+.fluid{
+    width:100%;
+    position: fixed;
+    max-width: 2140px;
+    padding-left: 50px;
+}
+
+.form-div{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top:5%;
+    padding: 20px;
+}
+.principal{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5%;
+    margin-top:5%;
+    padding: 15px; 
+}
+
+.principal a{
+    color:white;
+}
+.img-cont{
+    width: 600px;
+    height: 400px;
+}
+
+.card-body{
+    text-align: justify;
+}
+
+aside a{
+    color: rgb(12, 12, 12);
+}
+
+.author a{
+    color:white;
+}
+@media only screen and (max-width: 600px) {
+    .fluid{
+        position: fixed; 
+        width:100%;
+        max-width: 2140px;
+        padding-left: 50px;
+    }
+    .fluid p{
+        font-size: 90%;
+    }
+    .fluid p{
+        width: 33%;
+    }
+    .author{
+      font-size: 85%;
+    }
+    h3{
+        font-size: 90%;
+    }
+    nav h2{
+        display:none;
+    }
+    aside li{
+        display:block;
+    }
+  }
+
+section{
+    position: relative;
+    float:right;
+    width:60%;
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    right: 10%
+    ;
+}
+aside{
+    position: relative;
+    background-color:rgb(191, 186, 194);
+    width:40%;
+    padding: 8px 8px 8px 8px;
+    float:left;
+    margin: 5px;
+}
