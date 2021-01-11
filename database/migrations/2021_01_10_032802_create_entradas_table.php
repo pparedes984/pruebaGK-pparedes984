@@ -16,7 +16,8 @@ class CreateEntradasTable extends Migration
         Schema::create('entradas', function (Blueprint $table) {
             $table->increments('id');
             $table->string('titulo',255);
-            $table->string('descripcion', 255);
+            $table->text('descripcion');
+            $table->string('imagen', 255);
             $table->timestamps();
         });
     }
